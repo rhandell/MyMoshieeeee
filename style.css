@@ -175,7 +175,7 @@ body{
 /* 💜 SEAL */
 .seal{
     position:absolute;
-    top:80px;
+    top:55px;
     left:50%;
     transform:translateX(-50%);
     width:65px;
