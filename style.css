@@ -134,23 +134,31 @@ body{
 /* 💜 SEAL */
 .seal{
     position:absolute;
-    top:55px;
+
     left:50%;
+    top:88px;
+
     transform:translateX(-50%);
+
     width:65px;
     height:65px;
+
     border-radius:50%;
+
     background:white;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
     font-size:32px;
+
     z-index:10;
+
     box-shadow:
     0 5px 15px rgba(0,0,0,0.15),
     0 0 20px rgba(255,255,255,0.8);
 }
-
 #envelope.open .seal{
     opacity:0;
 }
@@ -213,9 +221,11 @@ body{
 /* 📱 MOBILE */
 @media (max-width:768px){
 
-    #envelope{
-        width:220px;
-        height:140px;
+    .seal{
+        width:55px;
+        height:55px;
+        top:53px;
+        font-size:28px;
     }
 
     .letter{
