@@ -136,7 +136,7 @@ body{
     position:absolute;
 
     left:50%;
-    top:88px;
+    top:75px;
 
     transform:translateX(-50%);
 
@@ -158,8 +158,8 @@ body{
     box-shadow:
     0 5px 15px rgba(0,0,0,0.15),
     0 0 20px rgba(255,255,255,0.8);
-}
-#envelope.open .seal{
+
+}#envelope.open .seal{
     opacity:0;
 }
 
